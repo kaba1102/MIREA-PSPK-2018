@@ -4,12 +4,12 @@ listA:
 for(var i = 2; i < 101; i++){
     for (var j = 2; j < edge; j++){
         if(i % j == 0){
-          continue listA;
-      }
+            continue listA;
+        }
     }
     if(edge !== 10){
-            edge++;
-        }
+         edge++;
+    }
     sum += i;
 }
 alert(sum);
